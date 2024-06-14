@@ -1,3 +1,21 @@
+html {
+	background: linear-gradient(
+		to top right,
+		rgb(85, 111, 255),
+		rgb(217, 90, 255)
+	);
+	font-family: Helvetica;
+	color: white;
+}
+
 img {
 	width: 20%;
+}
+
+#info {
+	text-align: center;
+}
+
+a[href] {
+	color: rgb(134, 194, 255);
 }
