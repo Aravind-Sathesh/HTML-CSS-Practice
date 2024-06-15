@@ -8,30 +8,33 @@ html {
 	color: white;
 }
 
-img {
-	width: 15rem;
+#intro {
+	display: flex;
 }
 
 #info {
 	text-align: left;
 	font-size: large;
 	font-weight: 600;
-	text-wrap: nowrap;
 }
 
-#pfp {
-	margin-left: 530px;
-}
-
-#intro {
-	width: 100%;
-	display: flex;
+img {
+	width: 15rem;
+	padding-left: 17.5rem;
 }
 
 a[href] {
 	color: rgb(116, 20, 233);
 }
+h1 {
+	font-family: ;
+}
 
 h2 {
 	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-variant: small-caps;
 }
