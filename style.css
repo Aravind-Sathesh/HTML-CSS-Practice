@@ -1,33 +1,51 @@
 html {
 	background: linear-gradient(
-		to top right,
-		rgb(64, 169, 255),
-		rgb(128, 119, 255)
+		to right,
+		rgb(246, 12, 234),
+		rgb(114, 121, 255)
 	);
 	font-family: Helvetica;
 	color: white;
 }
 
-#intro {
-	display: flex;
+#glass {
+	height: 100%;
+	width: 100%;
+	background: #878787;
+	opacity: 50%;
 }
+/* 
+#intro {
+	display: inline-block;
+	position: static;
+	margin: 0.5rem;
+	margin-left: 0.25rem;
+} */
 
 #info {
-	text-align: left;
+	/* float: left; */
+	width: 40.5rem;
+	height: 13.5rem;
+	border-radius: 0.5rem;
 	font-size: large;
 	font-weight: 600;
 }
 
 img {
-	width: 15rem;
-	padding-left: 17.5rem;
+	float: right;
+	width: 14.5rem;
+	border-radius: 0.5rem;
+	top: 1rem;
+	right: 1rem;
 }
 
 a[href] {
-	color: rgb(116, 20, 233);
+	color: rgb(20, 148, 233);
+	font-family: 'Courier New', Courier, monospace;
 }
+
 h1 {
-	font-family: ;
+	padding: 0;
 }
 
 h2 {
@@ -37,4 +55,9 @@ h2 {
 
 h3 {
 	font-variant: small-caps;
+}
+
+h4 {
+	font-variant: small-caps;
+	font-weight: lighter;
 }
