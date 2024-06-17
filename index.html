@@ -3,67 +3,77 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Résumé / CV</title>
+		<title>Personal Portfolio</title>
 		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<div id="info" class="glass">
-			<img src="Profile.jpg" alt="Face shot of Aravind" />
-			<h1>Aravind Sathesh</h1>
-
-			<p>B.E. Electronics and Instrumentation</p>
-			<p>1st Year BITS Pilani, Hyderabad Campus, India</p>
-			<p>Contact no.: +(91) 9742133123</p>
-			<p>
-				Email:
-				<a href="mailto:f20231187@hyderabad.bits-pilani.ac.in"
-					>f20231187@hyderabad.bits-pilani.ac.in</a
-				>
-			</p>
-		</div>
-		<div class="acheivements">
-			<div class="glass edu">
-				<h2>Education</h2>
-				<h3>
-					Bachelor of Engineering (B.E.) in Electronics and
-					Instrumentation
-				</h3>
-				<h4>BITS Pilani, Hyderabad Campus</h4>
-				<p>2023 - Present</p>
-				<p>GPA: 8.27/10</p>
-				<hr />
-				<h3>XII (cbse)</h3>
-				<h4>National Centre For Excellence, Bangalore</h4>
-				<p>2021 - 2023</p>
-				<p>Percentage: 94.2%</p>
-				<hr />
-				<h3>X (icse)</h3>
-				<h4>New Horizon Public School, Bangalore</h4>
-				<p>2008 - 2021</p>
-				<p>Percentage: 97.6%</p>
+		<div class="container">
+			<div class="nav block">
+				<div class="name">Aravind Sathesh</div>
+				<div class="nav-bar">
+					<button class="active tab">Profile</button>
+					<button class="tab">Proficiencies</button>
+					<button class="tab">Experience</button>
+					<button class="tab">Education</button>
+					<button class="tab">Interests</button>
+					<button class="tab">Contact</button>
+				</div>
 			</div>
-			<div class="glass tech">
-				<h2>Technical Proficiency</h2>
-				<h3>Programming Languages</h3>
-				<p>C, Python, Java</p>
-				<hr />
-				<h3>Database Management</h3>
-				<p>MySQL</p>
-				<hr />
-				<h3>Web Development</h3>
-				<p>HTML, CSS, JavaScript</p>
+			<div class="profile block">
+				<div class="image">
+					<img src="Profile.jpg" alt="Close up of Aravind's face" />
+				</div>
+				<div class="intro">
+					<h3>Hello, I'm</h3>
+					<h1>Aravind Sathesh</h1>
+					<h2>Full Stack Developer</h2>
+					<button class="resume">Download CV</button>
+					<button class="contact">Contact Info</button>
+				</div>
 			</div>
-			<div class="glass cca">
-				<h2>Co-Curricular Activities</h2>
-				<h3>Ultimate Frisbee</h3>
-				<p>Member of BPHC Ultimate (2023-24 Season)</p>
-				<hr />
-				<h3>Music</h3>
-				<p>Achieved Grade 3 in Keyboard from Trinity College, London</p>
-				<hr />
-				<h3>Martial Arts</h3>
-				<p>Second Dan Black Belt in Karate</p>
+			<h2>Proficiencies</h2>
+			<div class="proficiencies block">
+				<div>
+					<img class="image" src="C.png" alt="C logo" />
+					<div class="text">C</div>
+				</div>
+				<div>
+					<img class="image" src="Java.png" alt="Java logo" />
+					<div class="text">Java</div>
+				</div>
+				<div>
+					<img class="image" src="Python.png" alt="Python logo" />
+					<div class="text">Python</div>
+				</div>
+				<div>
+					<img class="image" src="MySQL.png" alt="MYSQL logo" />
+					<div class="text">MySQL</div>
+				</div>
+				<div>
+					<img class="image" src="HTML.png" alt="HTML logo" />
+					<div class="text">HTML</div>
+				</div>
+				<div>
+					<img class="image" src="CSS.png" alt="CSS logo" />
+					<div class="text">CSS</div>
+				</div>
+				<div>
+					<img class="image" src="JS.png" alt="JavaScript logo" />
+					<div class="text">JavaScript</div>
+				</div>
 			</div>
+			<div class="experience block"></div>
+			<div class="education block"></div>
+			<div class="interests block"></div>
+			<div class="contact block"></div>
 		</div>
 	</body>
 </html>
