@@ -10,7 +10,6 @@
 			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
 			crossorigin="anonymous"
 		/>
-		<!-- <link rel="stylesheet" href="style.css" /> -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,24 +37,21 @@
 						>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Proficiencies</a>
+						<a href="#proficiencies" class="nav-link">Proficiencies</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Experience</a>
+						<a href="#experience" class="nav-link">Experience</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link">Education</a>
+						<a href="#education" class="nav-link">Education</a>
 					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Interests</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Contact</a>
+					<li>
+						
 					</li>
 				</ul>
 			</header>
 		</div>
-		<div class="container col-xxl-8 px-4 py-5" id="profile">
+		<div class="container col-xxl-8 px-4 py-5 my-5" id="profile">
 			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 				<div class="col-lg-6">
 					<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
@@ -69,9 +65,10 @@
 							type="button"
 							class="btn btn-primary btn-md px-4"
 						>
-							Download CV
+						Download CV
+							
 						</button>
-						<button
+						<button onclick="window.location.href = 'https://www.linkedin.com/in/aravind-sathesh/'"
 							type="button"
 							class="btn btn-outline-primary btn-md px-4"
 						>
@@ -89,7 +86,7 @@
 							</svg>
 							LinkedIn
 						</button>
-						<button
+						<button onclick="window.location.href = 'https://github.com/Aravind-Sathesh/'"
 							type="button"
 							class="btn btn-outline-primary btn-md px-4"
 						>
@@ -121,35 +118,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="container px-4 py-5" id="featured-3">
+		<div class="container px-4 py-5" id="proficiencies">
 			<h2 class="pb-2 border-bottom">Technical Proficiencies</h2>
 			<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 				<div class="feature col">
 					<div
 						class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
 					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="1em"
-							height="1em"
-							fill="currentColor"
-							class="bi bi-filetype-java"
-							viewBox="0 0 16 16"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.521 15.175a1.3 1.3 0 0 1-.082-.466h.765a.6.6 0 0 0 .073.27.5.5 0 0 0 .454.246q.285 0 .422-.164.138-.165.138-.466V11.85h.79v2.725q0 .66-.357 1.005-.354.345-.984.345a1.6 1.6 0 0 1-.568-.094 1.1 1.1 0 0 1-.408-.266 1.1 1.1 0 0 1-.243-.39m3.972-.354-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028zm1.178-.59-.49-1.616h-.035l-.49 1.617zm2.342 1.618h.952l1.327-3.999h-.878l-.888 3.138h-.038L8.59 11.85h-.917zm3.087-1.028-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028zm1.178-.59-.49-1.616h-.035l-.49 1.617z"
-							/>
-						</svg>
-
-						<!-- <img
-							src="Java.png"
-							width="52em"
-							height="52em"
-							fill="currentColor"
-							class="bi"
-							style="border-radius: 0.5rem"
-						/> -->
+						<img src="./java.png">
 					</div>
 					<h3 class="fs-2 text-body-emphasis">Java</h3>
 					<p>
@@ -161,20 +137,8 @@
 				<div class="feature col">
 					<div
 						class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
-					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="1em"
-							height="1em"
-							fill="currentColor"
-							class="bi bi-filetype-py"
-							viewBox="0 0 16 16"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M14 4.5V14a2 2 0 0 1-2 2H7v-1h5a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM0 11.85h1.6q.434 0 .732.179.302.175.46.477t.158.677-.16.677q-.158.299-.464.474a1.45 1.45 0 0 1-.732.173H.79v1.342H0zm2.06 1.714a.8.8 0 0 0 .085-.381q0-.34-.185-.521-.185-.182-.513-.182H.788v1.406h.66a.8.8 0 0 0 .374-.082.57.57 0 0 0 .238-.24m2.963.75v1.535H4.23v-1.52L2.89 11.85h.876l.853 1.696h.032l.856-1.696h.855z"
-							/>
-						</svg>
+					>	
+						<img src="./Python.png">
 					</div>
 					<h3 class="fs-2 text-body-emphasis">Python</h3>
 					<p>
@@ -187,21 +151,7 @@
 					<div
 						class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
 					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="1em"
-							height="1em"
-							fill="currentColor"
-							class="bi bi-file-earmark-code"
-							viewBox="0 0 16 16"
-						>
-							<path
-								d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"
-							/>
-							<path
-								d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708m-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708"
-							/>
-						</svg>
+						<img src="./C.png">
 					</div>
 					<h3 class="fs-2 text-body-emphasis">C</h3>
 					<p>
@@ -214,19 +164,7 @@
 					<div
 						class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
 					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="1em"
-							height="1em"
-							fill="currentColor"
-							class="bi bi-filetype-js"
-							viewBox="0 0 16 16"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M14 4.5V14a2 2 0 0 1-2 2H8v-1h4a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM3.186 15.29a1.2 1.2 0 0 1-.111-.449h.765a.58.58 0 0 0 .255.384q.105.073.249.114.143.041.319.041.246 0 .413-.07a.56.56 0 0 0 .255-.193.5.5 0 0 0 .085-.29.39.39 0 0 0-.153-.326q-.151-.12-.462-.193l-.619-.143a1.7 1.7 0 0 1-.539-.214 1 1 0 0 1-.351-.367 1.1 1.1 0 0 1-.123-.524q0-.366.19-.639.19-.272.528-.422.336-.15.776-.149.457 0 .78.152.324.153.5.41.18.255.2.566h-.75a.56.56 0 0 0-.12-.258.6.6 0 0 0-.247-.181.9.9 0 0 0-.369-.068q-.325 0-.513.152a.47.47 0 0 0-.184.384q0 .18.143.3a1 1 0 0 0 .405.175l.62.143q.327.075.566.211.24.136.375.358t.135.56q0 .37-.188.656a1.2 1.2 0 0 1-.539.439q-.351.158-.858.158-.381 0-.665-.09a1.4 1.4 0 0 1-.478-.252 1.1 1.1 0 0 1-.29-.375m-3.104-.033A1.3 1.3 0 0 1 0 14.791h.765a.6.6 0 0 0 .073.27.5.5 0 0 0 .454.246q.285 0 .422-.164.138-.165.138-.466v-2.745h.79v2.725q0 .66-.357 1.005-.354.345-.984.345a1.6 1.6 0 0 1-.569-.094 1.15 1.15 0 0 1-.407-.266 1.1 1.1 0 0 1-.243-.39"
-							/>
-						</svg>
+						<img src="./JavaScript.png">
 					</div>
 					<h3 class="fs-2 text-body-emphasis">JavaScript</h3>
 					<p>
@@ -239,19 +177,7 @@
 					<div
 						class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
 					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="1em"
-							height="1em"
-							fill="currentColor"
-							class="bi bi-filetype-jsx"
-							viewBox="0 0 16 16"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM3.075 14.841a1.13 1.13 0 0 0 .401.823q.194.162.478.252.284.091.665.091.507 0 .858-.158.355-.158.54-.44a1.17 1.17 0 0 0 .187-.656q0-.336-.135-.56a1 1 0 0 0-.375-.357 2 2 0 0 0-.565-.21l-.621-.144a1 1 0 0 1-.405-.176.37.37 0 0 1-.143-.299q0-.234.184-.384.188-.152.513-.152.214 0 .37.068a.6.6 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.1 1.1 0 0 0-.199-.566 1.2 1.2 0 0 0-.5-.41 1.8 1.8 0 0 0-.78-.152q-.44 0-.776.15-.337.149-.528.421-.19.273-.19.639 0 .302.123.524t.351.367q.229.143.54.213l.618.144q.31.073.462.193a.39.39 0 0 1 .153.326.5.5 0 0 1-.085.29.56.56 0 0 1-.255.193q-.167.07-.413.07-.176 0-.32-.04a.8.8 0 0 1-.248-.115.58.58 0 0 1-.255-.384zM0 14.791q0 .247.082.466.083.22.243.39.165.17.407.267.246.093.569.093.63 0 .984-.346.357-.345.358-1.004v-2.725h-.791v2.745q0 .302-.138.466t-.422.164a.5.5 0 0 1-.454-.246.6.6 0 0 1-.073-.27zm8.907-2.859H9.8l-1.274 2.007L9.78 15.93h-.908l-.85-1.415h-.035l-.853 1.415h-.861l1.24-2.016-1.228-1.983h.931l.832 1.438h.036l.823-1.438Z"
-							/>
-						</svg>
+						<img src="./React.png">
 					</div>
 					<h3 class="fs-2 text-body-emphasis">React</h3>
 					<p>
@@ -264,19 +190,7 @@
 					<div
 						class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
 					>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="1em"
-							height="1em"
-							fill="currentColor"
-							class="bi bi-filetype-sql"
-							viewBox="0 0 16 16"
-						>
-							<path
-								fill-rule="evenodd"
-								d="M14 4.5V14a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM0 14.841a1.13 1.13 0 0 0 .401.823q.194.162.478.252c.284.09.411.091.665.091q.507 0 .858-.158.355-.159.54-.44a1.17 1.17 0 0 0 .187-.656q0-.336-.135-.56a1 1 0 0 0-.375-.357 2 2 0 0 0-.565-.21l-.621-.144a1 1 0 0 1-.405-.176.37.37 0 0 1-.143-.299q0-.234.184-.384.187-.152.513-.152.214 0 .37.068a.6.6 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.1 1.1 0 0 0-.199-.566 1.2 1.2 0 0 0-.5-.41 1.8 1.8 0 0 0-.78-.152q-.44 0-.776.15-.337.149-.528.421-.19.273-.19.639 0 .302.123.524t.351.367q.229.143.54.213l.618.144q.31.073.462.193a.39.39 0 0 1 .153.325q0 .165-.085.29A.56.56 0 0 1 2 15.31q-.167.07-.413.07-.176 0-.32-.04a.8.8 0 0 1-.248-.115.58.58 0 0 1-.255-.384zm6.878 1.489-.507-.739q.264-.243.401-.6.138-.358.138-.806v-.501q0-.556-.208-.967a1.5 1.5 0 0 0-.589-.636q-.383-.225-.917-.225-.527 0-.914.225-.384.223-.592.636a2.14 2.14 0 0 0-.205.967v.5q0 .554.205.965.208.41.592.636a1.8 1.8 0 0 0 .914.222 1.8 1.8 0 0 0 .6-.1l.294.422h.788ZM4.262 14.2v-.522q0-.369.114-.63a.9.9 0 0 1 .325-.398.9.9 0 0 1 .495-.138q.288 0 .495.138a.9.9 0 0 1 .325.398q.115.261.115.63v.522q0 .246-.053.445-.053.196-.155.34l-.106-.14-.105-.147h-.733l.451.65a.6.6 0 0 1-.251.047.87.87 0 0 1-.487-.147.9.9 0 0 1-.32-.404 1.7 1.7 0 0 1-.11-.644m3.986 1.057h1.696v.674H7.457v-3.999h.79z"
-							/>
-						</svg>
+						<img src="./MySQL.png">
 					</div>
 					<h3 class="fs-2 text-body-emphasis">MySQL</h3>
 					<p>
@@ -287,13 +201,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="container card-group">
+		<div class="container card-group pb-5" id="experience">
 			<h2 class="pb-2 border-bottom container">Experience</h2>
 			<div class="row py-5 text-center">
 				<div class="col-lg-4">
-					<img src="./RC.png" class="bd-placeholder-img border border-primary rounded-circle" width="140"
+					<img src="./RingCentral.png" class="bd-placeholder-img border border-primary rounded-circle" width="140"
 					height="140" focusable="false" />
-					<h2 class="fw-normal pt-3">RingCentral</ht>
+					<h2 class="fw-normal pt-3">RingCentral</h4>
 					<h5 class="fw-normal pb-3">Summer Internship</h5>
 					<p class="w-80 mx-auto">
 						Working at RingCentral has opened me up to how things function in the corporate world. The experience it
@@ -347,48 +261,49 @@
 				<!-- /.col-lg-4 -->
 			</div>
 		</div>
-		<div class="container card-group">
+		<div class="container card-group pt-5" id="education">
 			<h2 class="pb-2 border-bottom container">Education</h2>
-			<div class="card mx-4 p-3 border rounded-1" style="max-width: 25rem;">
-				<img src="./NHPS-Logo.webp" class="card-img-top" alt="...">
+			<div class="card mx-3 p-3 my-5 border rounded-1" style="max-width: 25rem;">
+				<div id="image">
+				<img src="./NHPS.webp" class="card-img-top" alt="..."></div>
 				<div class="card-body">
-				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<h4 class="fw-normal pt-3">New Horizon Public School</h4>
+					<h5 class="fw-normal">2008 - 2021</h5>
+					<h6 class="fw-normal">ICSE</h5>
 				</div>
 			</div>
-			<div class="card mx-4 p-3 border rounded-1" style="max-width: 25rem;">
-				<img src="./NCFE Logo.png" class="card-img-top" alt="...">
+			<div class="card mx-3 p-3 my-5 border rounded-1" style="max-width: 25rem;">
+				<div id="image">
+				<img src="./NCFE.png" class="card-img-top" alt="..."></div>
 				<div class="card-body">
-				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<h4 class="fw-normal pt-3">National Centre For Excellence</h4>
+					<h5 class="fw-normal">2021 - 2023</h5>
+					<h6 class="fw-normal">CBSE</h5>
 				</div>
 			</div>
-			<div class="card mx-4 p-3 border rounded-1" style="max-width: 25rem;">
-				<img src="./NHPS-Logo.webp" class="card-img-top" alt="...">
+			<div class="card mx-3 p-3 my-5 border rounded-1" style="max-width: 25rem;">
+				<div id="image">
+				<img src="./BITS.png" class="card-img-top" alt="..."></div>
 				<div class="card-body">
-				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<h4 class="fw-normal pt-3">BITS Pilani, Hyderabad Campus</h4>
+					<h5 class="fw-normal">2023 - Present</h5>
+					<h6 class="fw-normal">B.E. (Hons.) - ENI</h5>
 				</div>
 			</div>
 		</div>
-		<div class="container">
+		<div class="container" id="footer">
 			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-			  <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+			  <p class="col-md-4 mb-0 text-body-secondary">© 2024 Aravind Sathesh</p>
 		  
 			  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
 				<svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
 			  </a>
 		  
 			  <ul class="nav col-md-4 justify-content-end">
-				<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-				<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-				<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-				<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-				<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Scoll to top ↑</a></li>
 			  </ul>
 			</footer>
 		  </div>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-			crossorigin="anonymous"
-		></script>
+		
 	</body>
 </html>

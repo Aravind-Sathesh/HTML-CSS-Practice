@@ -12,3 +12,24 @@
 .w-80 {
 	width: 85%;
 }
+
+.feature-icon > img {
+	width: 35px;
+}
+
+#image {
+	display: flex;
+	height: 5rem;
+	justify-content: center;
+}
+
+#image > img {
+	max-height: 4.5rem;
+	max-width: 22rem;
+	width: auto;
+	height: auto;
+}
+
+html {
+	scroll-padding-top: 105px;
+}
